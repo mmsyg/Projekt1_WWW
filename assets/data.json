@@ -1,0 +1,83 @@
+{
+  "dogs": [
+    {
+      "name": "Burek",
+      "image": "https://schroniskopsiepole.pl/wp-content/uploads/2023/08/IMG20230808131126_01.jpg",
+      "age": 5,
+      "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
+      "sex": "On",
+      "waga": "12 kg"
+    },
+    {
+      "name": "Figa",
+      "image": "../assets/figa.jpg",
+      "age": 4,
+      "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
+      "sex": "Ona",
+      "waga": "12 kg"
+    },
+    {
+      "name": "Filar",
+      "image": "../assets/filar.jpg",
+      "age": 4,
+      "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
+      "sex": "Ona",
+      "waga": "12 kg"
+    },
+    {
+      "name": "Kiko",
+      "image": "../assets/kiko.jpg",
+      "age": 4,
+      "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
+      "sex": "Ona",
+      "waga": "12 kg"
+    },
+    {
+      "name": "kula",
+      "image": "../assets/kula.jpg",
+      "age": 4,
+      "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
+      "sex": "Ona",
+      "waga": "12 kg"
+    },
+    {
+      "name": "Piwko",
+      "image": "../assets/piwko.jpg",
+      "age": 4,
+      "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
+      "sex": "Ona",
+      "waga": "12 kg"
+    },
+    {
+      "name": "Puszek",
+      "image": "../assets/puszek.jpg",
+      "age": 4,
+      "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
+      "sex": "Ona",
+      "waga": "12 kg"
+    },
+    {
+      "name": "Rex",
+      "image": "../assets/rex.jpeg",
+      "age": 4,
+      "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
+      "sex": "Ona",
+      "waga": "12 kg"
+    }
+  ],
+  "mails": [
+    {
+      "id": 1,
+      "date": "2015-01-01",
+      "email": "qwerty@mail.com",
+      "input": "Wiktoria"
+    },
+   
+    {
+      "date": "2023-12-06",
+      "email": "222@kula.pl",
+      "input": "qwert",
+      "id": 2
+    }
+  ]
+}

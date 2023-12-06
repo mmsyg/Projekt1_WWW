@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+body {
+
+        background-image: linear-gradient(to right top, #f9faeb, #e9f5c6, #e2fad0, #cef59c, #a8fc93);
+  font-family: 'Roboto';
+  color: #000000;
+  max-width: 1300px;
+  margin: 100px auto;
+  padding: 10px;
+  float: none;
+  align-items: center; 
+}
+
+nav {
+   
+        display: flex;
+        justify-content: center;
+        background-color: rgb(68, 34, 0);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+   
+}
+
+
+.middle{min-height: 1000px;
+        max-width: 1400px;
+        margin: 0 auto;
+        -webkit-box-shadow: 0 0 40px 5px rgba(0,0,0,.11);
+        box-shadow: 0 0 40px 5px rgba(0,0,0,.11);
+        background-color: #ffffff;
+}
+
+.dog_photo{
+        width: 200px;
+        height: 200px;
+        border-radius: 12px;
+        margin: 0 auto;
+
+}
+.dog-tile {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 10px;
+        width: 200px;
+        border-radius: 12px;
+        text-align: center;
+        display: inline-block;
+        box-shadow: 0 0 40px 5px rgba(0,0,0,.11);
+        opacity: 0; /* Ukrycie elementu na początku */
+        transition: opacity 0.5s ease-in-out; /* Dodanie przejścia */
+        opacity: 1; /* Ukrycie elementu na początku */
+        transition: opacity 0.5s ease-in-out; /* Dodanie przejścia */
+        animation: fadeIn 0.5s ease-in-out forwards;
+      }
+
+
+      /* Ustawienia dla kontenera Flexbox */
+.dogs-container {
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        width: 1300px;
+        /* Ustawienie inicjalnej przejrzystości */
+      }
+      
+      /* Ustawienia dla elementów w kontenerze */
+      .dog-tile {
+      
+      }
+      
+      /* Animacja pojawiania się elementów */
+      
+      
+      /* Kluczowe klatki animacji */
+      @keyframes fadeIn {
+        from {
+          opacity: 0.4; /* Stan początkowy - ukryty */
+          transform: translateY(60px); /* Opcjonalne przesunięcie */
+        }
+        to {
+          opacity: 1; /* Stan końcowy - widoczny */
+          transform: translateY(0); /* Opcjonalne przesunięcie */
+        }
+      }
+
+      footer{
+        align-items: center;
+        justify-content: center;
+
+      }
+
+      /* Resetowanie domyślnych styli przeglądarki */
+
+
+/* Stylizacja sekcji middle */
+.middle {
+  width: 80%; /* Dostosuj szerokość według potrzeb */
+
+  font-family: Arial, sans-serif; /* Wybierz preferowany font */
+}
+
+/* Stylizacja nagłówka */
+nav h1 {
+  font-size: 28px;
+  color: #333; /* Kolor tekstu */
+}
+
+/* Stylizacja nawigacji */
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px; /* Odstęp między elementami */
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007bff; /* Kolor linków */
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff0000; /* Kolor przy najechaniu myszką */
+}
+
+/* Stylizacja zawartości */
+#content {
+  margin-top: 20px; /* Odstęp od góry */
+}
+
+/* Stylizacja stopki */
+footer {
+  text-align: center;
+  margin-top: 50px; /* Odstęp od treści */
+  font-size: 14px;
+  color: #777; /* Kolor tekstu stopki */
+}
+
+footer address {
+  font-style: italic;
+}
