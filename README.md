@@ -9,7 +9,7 @@ Welcome to the "Schronisko dla psów" project! This project aims to create a web
 2. Navigate to the project directory:
 
     ```bash
-    cd Projekt1_schronikso_dla_psow
+    cd Projekt1_WWW
     ```
 
 3. Install dependencies:
