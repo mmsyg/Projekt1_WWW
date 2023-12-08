@@ -7,13 +7,13 @@ const createQuestion = async (e) => {
  
 
   const doc = {
-  
-    date: form.dateField.value,
+    username: form.usernameField.value,
+    nr_id: form.idField.value,
     email: form.emailField.value,
     input: form.inputField.value
   };
 
-  await fetch('http://localhost:3000/mails', {
+  await fetch('http://localhost:3000/opinions', {
     method: 'POST',
     body: JSON.stringify(doc),
     headers: { 'Content-Type': 'application/json' }

@@ -2,25 +2,47 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Informacje o psie</title>
+    <title>Schronisko</title>
     <link rel="stylesheet" href="../css/index.css" />
+    <link rel="stylesheet" href="../css/dog.css" />
   </head>
   <body>
+    <div class="mainnav" id="navbar">
+      <a href="../index.html" class="active">O NAS</a>
+      <a href="../html/adoptionSearch.html">DO ADOPCJI</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          WSPARCIE
+        </button>
+        <div class="dropdown-content">
+          <a href="../html/volunteering.html">WOLONTARIAT</a>
+          <a href="../html/opinie.html">OPINIE</a>
+        </div>
+      </div>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+
     <section class="middle">
-    <nav>
-      <h1>kupa</h1>
-      <ul>
-        <li><a href="../index.html">AKTUALNOŚCI</a></li>
-        <li><a href="../html/adoptionSearch.html">DO ADOPCJI</a></li>
-        <li><a href="../html/wolontariat.html">WOLONTARIAT</a></li>
-        <li><a href="#main/strona1">DO ADOPCJI</a></li>
-      </ul>
-    </nav>
-    
       <div class="dog-details">
-        <h1>Szczegóły psa</h1>
+        <h1>Informacje o psie</h1>
+
         <div id="dog-info">
           <!-- Tutaj będą wyświetlane informacje o wybranym psie -->
+        </div>
+
+        <button type="submit" calass="btn" onclick="openPopup()">
+          Zaadoptuj
+        </button>
+        <div class="popup" id="popup">
+          <div class="text">
+            <h2>Podjąłeś pierszy krok do adopcji</h2>
+            <p>Skontaktuj się znami pod numer: <b>+48 688 991 345</b></p>
+            <button onclick="closePopup()">OK</button>
+          </div>
         </div>
       </div>
     </section>

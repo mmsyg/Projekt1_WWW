@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Schronisko</title>
+    <link rel="stylesheet" href="../css/index.css" />
+    <style></style>
+  </head>
+  <body>
+    <div class="mainnav" id="navbar">
+      <a href="../index.html" class="active">O NAS</a>
+      <a href="../html/adoptionSearch.html">DO ADOPCJI</a>
+
+      <div class="dropdown">
+        <button class="dropbtn">
+          WSPARCIE
+        </button>
+        <div class="dropdown-content">
+          <a href="../html/volunteering.html">WOLONTARIAT</a>
+          <a href="../html/opinie.html">OPINIE</a>
+        </div>
+      </div>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+    <section class="middle">
+      <div class="wolontariat">
+        <h2>Podziel się swoją opinią</h2>
+        <p>To pomoże nam w dalczej pracy</p>
+        <form id="questionForm" class="questionForm">
+          <!-- Pozostałe pola formularza -->
+          <input
+            type="text"
+            id="usernameField"
+            name="usernameField"
+            placeholder="username"
+          />
+          <input
+            type="number"
+            id="idField"
+            name="idField"
+            placeholder="kod"
+            maxlength="4"
+          />
+          <input
+            type="email"
+            id="emailField"
+            name="emailField"
+            placeholder="e-mail"
+          />
+          <input
+            type="text"
+            id="inputField"
+            name="inputField"
+            placeholder="Twoja opinia..."
+            class="opinionTxt"
+          />
+
+          <button type="submit" id="submitButton">Potwierdź</button>
+        </form>
+      </div>
+    </section>
+    <script src="../js/opinie.js"></script>
+  </body>
+</html>

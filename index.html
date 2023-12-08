@@ -1,44 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Schronisko</title>
-  <link rel="stylesheet" href="./css/index.css">
-</head>
-<body>
-<section class="middle">
-  <nav>
-    <h1>kupa</h1>
-    <ul>
-      <li><a href="./index.html">AKTUALNOŚCI</a></li>
-      <li><a href="./html/adoptionSearch.html">DO ADOPCJI</a></li>
-      <li><a href="./html/wolontariat.html">WOLONTARIAT</a></li>
-      <li><a href="#main/strona1">DO ADOPCJI</a></li>
-    </ul>
-  </nav>
- 
+  <head>
+    <meta charset="UTF-8" />
+    <title>Schronisko</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
+    <div class="mainnav" id="navbar">
+      <a href="/index.html" class="active">O NAS</a>
+      <a href="./html/adoptionSearch.html">DO ADOPCJI</a>
 
-  <div id="content">
-    <h2>Adoptuj zwierzaka</h2>
-    
-  </div>
-  <p>
-    Witaj w Schronisku Zwierząt [Nazwa Schroniska]! 
+      <div class="dropdown">
+        <button class="dropbtn">
+          WSPARCIE
+        </button>
+        <div class="dropdown-content">
+          <a href="./html/volunteering.html">WOLONTARIAT</a>
+          <a href="./html/opinie.html">OPINIE</a>
+        </div>
+      </div>
 
-    Z pasją i oddaniem dbamy o zwierzęta potrzebujące pomocy. Nasza misja to zapewnienie bezpieczeństwa, opieki oraz domów tymczasowych dla porzuconych, zagubionych i bezdomnych zwierząt. Pragniemy stworzyć lepsze życie dla każdego podopiecznego i znaleźć im odpowiedzialnych opiekunów na zawsze.
-  </ul>
-  <ul>Co oferujemy:
-    <li>Adopcje: Zapoznaj się z naszymi podopiecznymi czworonogami, gotowymi do znalezienia nowego domu i kochającej rodziny.</li>
-    <li>Wspomóż nas: Dowiedz się, w jaki sposób możesz pomóc naszym zwierzętom poprzez adopcję, wolontariat, darowizny lub akcje charytatywne.</li>
-    <li>Aktualności: Bądź na bieżąco z naszymi wydarzeniami, sukcesami adopcyjnymi i akcjami charytatywnymi.</li>
-    <li>Kontakt: Masz pytania lub chcesz się dowiedzieć więcej? Skontaktuj się z nami, jesteśmy tu dla Ciebie.</li>
-  </ul>
-  <p>Przejrzyj naszą stronę, poznaj naszą rodzinę zwierzaków i zobacz, jak możesz zmienić życie zwierząt poprzez adopcję lub wsparcie naszej misji. Dziękujemy za wsparcie i zainteresowanie sprawą bezdomnych zwierząt!</p>
-  
-  </section>
-<footer>
-		Autor: <address>Jan Kowalski (jan.kowalski@example.com)</address>
-		<p>wszelkie prawa zastrzeżone</p>
-	</footer>
-</body>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"
+        >&#9776;</a
+      >
+    </div>
+    <section class="middle">
+      <div id="content" class="content">
+        <h2 class="opis">PRZYGARNIJ PSIAKA</h2>
+        <h3 class="opis">PIES NAJLEPSZY PRZYJACIEL CZŁOWIEKA</h3>
+        <h4 class="opis">HAU POMÓŻ HAU</h4>
+        <h2 class="opis">PRZYGARNIJ PSIAKA</h2>
+        <h3 class="opis"></h3>
+        <h4 class="opis">HAU POMÓŻ HAU</h4>
+        <img src="../assets/sad_dog.jpg" alt="sad_dog" class="sad_dog" />
+      </div>
+      <div class="description">
+        <p class="welcome">
+          Witaj w Schronisku Zwierząt GOLD! Z pasją i oddaniem dbamy o zwierzęta
+          potrzebujące pomocy. Nasza misja to zapewnienie bezpieczeństwa, opieki
+          oraz domów tymczasowych dla porzuconych, zagubionych i bezdomnych
+          zwierząt. Pragniemy stworzyć lepsze życie dla każdego podopiecznego i
+          znaleźć im odpowiedzialnych opiekunów na zawsze.
+        </p>
+        <div id="opinions-container">
+          <!-- tu beda opinie zaciagane z js -->
+        </div>
+        <ul>
+          Co oferujemy:
+          <li>
+            Adopcje: Zapoznaj się z naszymi podopiecznymi czworonogami, gotowymi
+            do znalezienia nowego domu i kochającej rodziny.
+          </li>
+          <li>
+            Wspomóż nas: Dowiedz się, w jaki sposób możesz pomóc naszym
+            zwierzętom poprzez adopcję, wolontariat, darowizny lub akcje
+            charytatywne.
+          </li>
+          <li>
+            Wolontariat: Bądź na bieżąco z naszymi wydarzeniami, sukcesami
+            adopcyjnymi i akcjami charytatywnymi.
+          </li>
+          <li>
+            Kontakt: Masz pytania lub chcesz się dowiedzieć więcej? Skontaktuj
+            się z nami, jesteśmy tu dla Ciebie.
+          </li>
+        </ul>
+        <p>
+          Przejrzyj naszą stronę, poznaj naszą rodzinę zwierzaków i zobacz, jak
+          możesz zmienić życie zwierząt poprzez adopcję lub wsparcie naszej
+          misji. Dziękujemy za wsparcie i zainteresowanie sprawą bezdomnych
+          zwierząt!
+        </p>
+      </div>
+    </section>
+
+    <footer>
+      Autor:
+      <address>Jan Kowalski (jan.kowalski@example.com)</address>
+      <p>wszelkie prawa zastrzeżone</p>
+    </footer>
+    <script src="./js/opinionDisplay.js"></script>
+  </body>
 </html>

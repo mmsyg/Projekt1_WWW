@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Lista Psów z JSON</title>
-  <link rel="stylesheet" href="../css/index.css">
-  
-</head>
-<body>
-  
-  <section class="middle"> 
+  <head>
+    <meta charset="UTF-8" />
+    <title>Schronisko</title>
+    <link rel="stylesheet" href="../css/index.css" />
+  </head>
+  <body>
+    <div class="mainnav" id="navbar">
+      <a href="../index.html" class="active">O NAS</a>
+      <a href="../html/adoptionSearch.html">DO ADOPCJI</a>
 
-    <nav>
-      <h1>kupa</h1>
-      <ul>
-        <li><a href="../index.html">AKTUALNOŚCI</a></li>
-        <li><a href="../html/adoptionSearch.html">DO ADOPCJI</a></li>
-        <li><a href="../html/wolontariat.html">WOLONTARIAT</a></li>
-        <li><a href="#main/strona1">DO ADOPCJI</a></li>
-      </ul>
-    </nav>
-    <h2>Psy szukające domu</h2>
-    <input type="text" id="searchInput" placeholder="Wyszukaj psa...">
-<button id="searchButton">Szukaj</button>
-<div id="dogs-container">
-  <!-- Tutaj będą wyświetlane psy -->
-</div>
-</section>
-<script src="../js/adoptionSearch.js">
+      <div class="dropdown">
+        <button class="dropbtn">
+          WSPARCIE
+        </button>
+        <div class="dropdown-content">
+          <a href="../html/volunteering.html">WOLONTARIAT</a>
+          <a href="../html/opinie.html">OPINIE</a>
+        </div>
+      </div>
 
-</script>
-
-</body>
+      <a href="javascript:void(0);" class="icon" onclick="navFunction()"
+        >&#9776;</a
+      >
+    </div>
+    <section class="middle">
+      <h2>Psy szukające domu</h2>
+      <input type="text" id="searchInput" placeholder="Wyszukaj psa..." />
+      <button id="searchButton">Szukaj</button>
+      <div id="dogs-container">
+        <!-- Tutaj będą wyświetlane psy -->
+      </div>
+    </section>
+    <script src="../js/adoptionSearch.js"></script>
+  </body>
 </html>

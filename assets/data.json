@@ -11,7 +11,7 @@
     {
       "name": "Figa",
       "image": "../assets/figa.jpg",
-      "age": 4,
+      "age": 6,
       "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
       "sex": "Ona",
       "waga": "12 kg"
@@ -27,15 +27,15 @@
     {
       "name": "Kiko",
       "image": "../assets/kiko.jpg",
-      "age": 4,
+      "age": 2,
       "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
       "sex": "Ona",
       "waga": "12 kg"
     },
     {
-      "name": "kula",
+      "name": "Kula",
       "image": "../assets/kula.jpg",
-      "age": 4,
+      "age": 3,
       "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
       "sex": "Ona",
       "waga": "12 kg"
@@ -43,7 +43,7 @@
     {
       "name": "Piwko",
       "image": "../assets/piwko.jpg",
-      "age": 4,
+      "age": 12,
       "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
       "sex": "Ona",
       "waga": "12 kg"
@@ -51,7 +51,7 @@
     {
       "name": "Puszek",
       "image": "../assets/puszek.jpg",
-      "age": 4,
+      "age": 0.5,
       "opis": "Miał być dom jednak domu nie ma:( Globus takie imię dostał w schronisku ma ok roku jest łagodny potrafi chodzić na smyczy. Obecnie wygląda trochę inaczej ,musiał mieć wycięte dredy,ale odrośnie. Jest wykastrowany zaszczepiony ,zaczipowany.",
       "sex": "Ona",
       "waga": "12 kg"
@@ -72,12 +72,34 @@
       "email": "qwerty@mail.com",
       "input": "Wiktoria"
     },
-   
     {
       "date": "2023-12-06",
       "email": "222@kula.pl",
       "input": "qwert",
       "id": 2
+    }
+  ],
+  "opinions": [
+    {
+      "id": 1,
+      "username": "admin",
+      "nr_id": "1234",
+      "email": "222@kula.pl",
+      "input": "Kocham mojego pieska!!!!"
+    },
+    {
+      "username": "kasiaka",
+      "nr_id": "2223",
+      "email": "gro@m.pl",
+      "input": "super piesek ta moja Luna!!!!",
+      "id": 2
+    },
+    {
+      "username": "",
+      "nr_id": "",
+      "email": "",
+      "input": "",
+      "id": 3
     }
   ]
 }
