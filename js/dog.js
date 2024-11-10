@@ -11,7 +11,7 @@ fetch("../assets/data.json")
     const dogName = params.get("name");
 
     const chosenDog = data.dogs.find((dog) => dog.name === dogName);
-
+//cula daje ful
     if (chosenDog) {
       const dogInfoDiv = document.getElementById("dog-info");
       const dogInfoHTML = `
